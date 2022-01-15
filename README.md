@@ -2,7 +2,7 @@
 Author: Helen Dun
 
 ## Descripition
-This is a simple Swift application built for MacOS for the purpose of annoying the user into going to bed. I created this for a research project for my CSC 485C course, "Computing for Cognitive Augmentation", at the University of Victoria. The PDF file "Augmenting Devices to be Less Addictive" is my powerpoint for the presentation I did in class, which was acclaimed the most entertaining presentation for the day I presented.
+This is a Swift application built for MacOS for the purpose of annoying the user into going to bed. I created this for a research project for my CSC 485C course, "Computing for Cognitive Augmentation", at the University of Victoria. The PDF file "Augmenting Devices to be Less Addictive" is my powerpoint for the presentation I did in class, which was acclaimed the most entertaining presentation for the day I presented.
 
 
 The TouchTheBed application primarily uses the menu bar (the far-right side of the top bar of a MacOS desktop) and pop-ups. The pop-over of the menu bar allows users to set their bedtime hours in military time. The icon in the upper-riight of the pop-over also tells the user whether the application thinks it is currently bedtime or not, with a moon indicating it is bedtime and a sun indicating it is not.
