@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1209535C2739CF1300434496 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209535B2739CF1300434496 /* EventMonitor.swift */; };
+		1219D2012753BF7A00A956F9 /* BedtimeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1219D2002753BF7A00A956F9 /* BedtimeTimer.swift */; };
+		123D78682734DEF600B3968F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D78672734DEF600B3968F /* AppDelegate.swift */; };
+		123D786A2734DEF600B3968F /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123D78692734DEF600B3968F /* PopoverViewController.swift */; };
+		123D786C2734DEF800B3968F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123D786B2734DEF800B3968F /* Assets.xcassets */; };
+		123D786F2734DEF800B3968F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123D786D2734DEF800B3968F /* Main.storyboard */; };
+		125DE7242747484000D86DA0 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DE7232747484000D86DA0 /* PopupViewController.swift */; };
+		12888F2A2782761F0045290F /* foghorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12888F292782761F0045290F /* foghorn.mp3 */; };
+		12888F2C278276570045290F /* DayNightTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12888F2B278276570045290F /* DayNightTimer.swift */; };
+		12888F2E278299960045290F /* TimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12888F2D278299960045290F /* TimeRange.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1209535B2739CF1300434496 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		1219D2002753BF7A00A956F9 /* BedtimeTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedtimeTimer.swift; sourceTree = "<group>"; };
+		123D78642734DEF600B3968F /* TouchTheBed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTheBed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		123D78672734DEF600B3968F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		123D78692734DEF600B3968F /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		123D786B2734DEF800B3968F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		123D786E2734DEF800B3968F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		123D78702734DEF800B3968F /* TouchTheBed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchTheBed.entitlements; sourceTree = "<group>"; };
+		125DE7232747484000D86DA0 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		12888F292782761F0045290F /* foghorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = foghorn.mp3; sourceTree = "<group>"; };
+		12888F2B278276570045290F /* DayNightTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightTimer.swift; sourceTree = "<group>"; };
+		12888F2D278299960045290F /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123D78612734DEF600B3968F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123D785B2734DEF600B3968F = {
+			isa = PBXGroup;
+			children = (
+				123D78662734DEF600B3968F /* TouchTheBed */,
+				123D78652734DEF600B3968F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		123D78652734DEF600B3968F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				123D78642734DEF600B3968F /* TouchTheBed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		123D78662734DEF600B3968F /* TouchTheBed */ = {
+			isa = PBXGroup;
+			children = (
+				123D78672734DEF600B3968F /* AppDelegate.swift */,
+				1209535B2739CF1300434496 /* EventMonitor.swift */,
+				12888F2D278299960045290F /* TimeRange.swift */,
+				125DE71D2747465100D86DA0 /* ViewControllers */,
+				125DE71E2747466D00D86DA0 /* Models */,
+			);
+			path = TouchTheBed;
+			sourceTree = "<group>";
+		};
+		125DE71D2747465100D86DA0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				123D78692734DEF600B3968F /* PopoverViewController.swift */,
+				125DE7232747484000D86DA0 /* PopupViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		125DE71E2747466D00D86DA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				123D786B2734DEF800B3968F /* Assets.xcassets */,
+				12888F292782761F0045290F /* foghorn.mp3 */,
+				1219D2002753BF7A00A956F9 /* BedtimeTimer.swift */,
+				12888F2B278276570045290F /* DayNightTimer.swift */,
+				123D786D2734DEF800B3968F /* Main.storyboard */,
+				123D78702734DEF800B3968F /* TouchTheBed.entitlements */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		123D78632734DEF600B3968F /* TouchTheBed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123D78732734DEF800B3968F /* Build configuration list for PBXNativeTarget "TouchTheBed" */;
+			buildPhases = (
+				123D78602734DEF600B3968F /* Sources */,
+				123D78612734DEF600B3968F /* Frameworks */,
+				123D78622734DEF600B3968F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTheBed;
+			productName = TouchTheBed;
+			productReference = 123D78642734DEF600B3968F /* TouchTheBed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		123D785C2734DEF600B3968F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					123D78632734DEF600B3968F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 123D785F2734DEF600B3968F /* Build configuration list for PBXProject "TouchTheBed" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 123D785B2734DEF600B3968F;
+			productRefGroup = 123D78652734DEF600B3968F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				123D78632734DEF600B3968F /* TouchTheBed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		123D78622734DEF600B3968F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123D786C2734DEF800B3968F /* Assets.xcassets in Resources */,
+				12888F2A2782761F0045290F /* foghorn.mp3 in Resources */,
+				123D786F2734DEF800B3968F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		123D78602734DEF600B3968F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1209535C2739CF1300434496 /* EventMonitor.swift in Sources */,
+				123D786A2734DEF600B3968F /* PopoverViewController.swift in Sources */,
+				12888F2E278299960045290F /* TimeRange.swift in Sources */,
+				123D78682734DEF600B3968F /* AppDelegate.swift in Sources */,
+				1219D2012753BF7A00A956F9 /* BedtimeTimer.swift in Sources */,
+				125DE7242747484000D86DA0 /* PopupViewController.swift in Sources */,
+				12888F2C278276570045290F /* DayNightTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		123D786D2734DEF800B3968F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				123D786E2734DEF800B3968F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		123D78712734DEF800B3968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		123D78722734DEF800B3968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		123D78742734DEF800B3968F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TouchTheBed/TouchTheBed.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raccoon.TouchTheBed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		123D78752734DEF800B3968F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TouchTheBed/TouchTheBed.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raccoon.TouchTheBed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123D785F2734DEF600B3968F /* Build configuration list for PBXProject "TouchTheBed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123D78712734DEF800B3968F /* Debug */,
+				123D78722734DEF800B3968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123D78732734DEF800B3968F /* Build configuration list for PBXNativeTarget "TouchTheBed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123D78742734DEF800B3968F /* Debug */,
+				123D78752734DEF800B3968F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 123D785C2734DEF600B3968F /* Project object */;
+}
