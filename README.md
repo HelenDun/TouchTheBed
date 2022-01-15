@@ -18,7 +18,7 @@ Some of the code for the BedtimeTimer, Viewcontroller and AppDelegate files is t
 - MacOS Development from Beginners by Roberto Machorro and Sarah Reichelt at https://www.raywenderlich.com/731-macos-development-for-beginners-part-1
 
 ### Art & Sounds
-App Icon from pixabay
-Sun Icon by Laxy at https://pngtree.com/freepng/sun-png-clipart-colored_5656301.html
-Moon Icon by Shihab Shahrirar at https://pngtree.com/freepng/white-moon-with-star-in-the-night_6635448.html
-Foghorn Noise by user "kwahmah_02" of freesound.org
+- App Icon from pixabay
+- Sun Icon by Laxy at https://pngtree.com/freepng/sun-png-clipart-colored_5656301.html
+- Moon Icon by Shihab Shahrirar at https://pngtree.com/freepng/white-moon-with-star-in-the-night_6635448.html
+- Foghorn Noise by user "kwahmah_02" of freesound.org
