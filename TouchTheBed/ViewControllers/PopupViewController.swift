@@ -15,7 +15,7 @@ class PopupViewController: NSViewController {
     @IBOutlet weak var quoteText: NSTextField!
     @IBOutlet weak var authorText: NSTextField!
     
-    var soundPlayer: AVAudioPlayer?
+    var soundPlayer: AVAudioPlayer!
     var soundTimer: Timer? = nil
     let quotes: [[String]] = [
         ["I love sleep. My life has the tendency to fall apart when I'm awake, you know?", "Ernest Hemingway"],
@@ -53,6 +53,7 @@ class PopupViewController: NSViewController {
 
         do {
             soundPlayer = try AVAudioPlayer(contentsOf: audioFileUrl)
+            soundPlayer.numberOfLoops = -1
             soundPlayer?.prepareToPlay()
         }
         catch {
@@ -64,13 +65,7 @@ class PopupViewController: NSViewController {
         super.viewWillAppear()
         
         // Play sound over and over
-        if let sp = soundPlayer {
-            soundTimer = Timer.scheduledTimer(withTimeInterval: sp.duration, repeats: true) { timer in
-                sp.stop()
-                sp.play(atTime: 0)
-            }
-            sp.play(atTime: 0)
-        }
+        soundPlayer?.play()
         
         // Display a random quote
         let rand = Int.random(in: 0..<quotes.count)
